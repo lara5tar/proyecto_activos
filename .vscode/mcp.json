@@ -1,0 +1,15 @@
+
+{
+  "servers": {
+    "sql-server-copilot": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mssql-mcp-server"
+      ],
+      "env": {
+        "MSSQL_CONNECTION_STRING": "Server=localhost,55585;Database=AdventureWorks2025;User Id=sa;Password=Hela031105;Encrypt=false;TrustServerCertificate=true;"
+      }
+    }
+  }
+}
