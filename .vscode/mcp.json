@@ -1,4 +1,3 @@
-
 {
   "servers": {
     "sql-server-copilot": {
@@ -8,7 +7,7 @@
         "mssql-mcp-server"
       ],
       "env": {
-        "MSSQL_CONNECTION_STRING": "Server=localhost,55585;Database=AdventureWorks2025;User Id=sa;Password=Hela031105;Encrypt=false;TrustServerCertificate=true;"
+        "MSSQL_CONNECTION_STRING": "Server=localhost,1433;Database=AdventureWorks2025;User Id=sa;Password=Hela031105!;Encrypt=false;TrustServerCertificate=true;"
       }
     }
   }
